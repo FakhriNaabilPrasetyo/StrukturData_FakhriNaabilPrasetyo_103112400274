@@ -27,7 +27,7 @@ Putri & Nugroho (2021) menjelaskan bahwa penggunaan parameter referensi dalam fu
 ![alt text](Screenshot/Guided1.png)
 
 - **Penjelasan  :**
-Program ini digunakan untuk menampilkan jumlah buku yang dibaca setiap hari selama seminggu dan menghitung totalnya. Data jumlah buku disimpan dalam array bukuPerHari, sedangkan variabel totalBuku digunakan untuk menampung total keseluruhan. Melalui perulangan for, program menampilkan jumlah buku yang dibaca setiap hari dan menambahkan nilainya ke total. Secara keseluruhan, program ini memanfaatkan array untuk menyimpan data dan loop for untuk menampilkan serta menghitung total buku secara otomatis.
+ Program ini digunakan untuk menampilkan jumlah buku yang dibaca setiap hari selama seminggu dan menghitung totalnya. Data jumlah buku disimpan dalam array bukuPerHari, sedangkan variabel totalBuku digunakan untuk menampung total keseluruhan. Melalui perulangan for, program menampilkan jumlah buku yang dibaca setiap hari dan menambahkan nilainya ke total. Secara keseluruhan, program ini memanfaatkan array untuk menyimpan data dan loop for untuk menampilkan serta menghitung total buku secara otomatis.
 
 - **Output  :**
 ![alt text](Screenshot/Output-Guided1.png)
@@ -36,8 +36,7 @@ Program ini digunakan untuk menampilkan jumlah buku yang dibaca setiap hari sela
 ![alt text](Screenshot/Guided2.png)
 
 - **Penjelasan  :**
-
-Program ini digunakan untuk menampilkan harga awal produk, alamat memorinya, dan menghitung harga setelah diberi diskon menggunakan pointer. Variabel hargaProduk menyimpan nilai awal 50000, sedangkan pointer ptrHarga digunakan untuk menyimpan alamat memori dari variabel tersebut. Program menampilkan harga awal dan alamat memorinya, lalu memberikan diskon 10% melalui pointer dengan perintah *ptrHarga = *ptrHarga * 0.9;. Karena pointer terhubung langsung ke variabel aslinya, perubahan nilai otomatis terjadi pada hargaProduk. Hasil akhirnya, program menampilkan harga produk setelah diskon dengan nilai yang sudah berkurang.
+ Program ini digunakan untuk menampilkan harga awal produk, alamat memorinya, dan menghitung harga setelah diberi diskon menggunakan pointer. Variabel hargaProduk menyimpan nilai awal 50000, sedangkan pointer ptrHarga digunakan untuk menyimpan alamat memori dari variabel tersebut. Program menampilkan harga awal dan alamat memorinya, lalu memberikan diskon 10% melalui pointer dengan perintah *ptrHarga = *ptrHarga * 0.9;. Karena pointer terhubung langsung ke variabel aslinya, perubahan nilai otomatis terjadi pada hargaProduk. Hasil akhirnya, program menampilkan harga produk setelah diskon dengan nilai yang sudah berkurang.
 
 - **Output  :**
 ![alt text](Screenshot/Output-Guided2.png)
@@ -46,8 +45,7 @@ Program ini digunakan untuk menampilkan harga awal produk, alamat memorinya, dan
 ![alt text](Screenshot/Guided3.png)
 
 - **Penjelasan  :**
-
-Program ini digunakan untuk menampilkan profil siswa, menghitung rata-rata nilai, dan menambahkan bonus nilai menggunakan fungsi. Fungsi hitungRataRata() menghitung rata-rata dari nilai tugas dan UTS, sedangkan cetakProfil() menampilkan nama serta nilai siswa. Fungsi beriNilaiBonus() menambahkan nilai sebesar 5 poin dengan menggunakan parameter referensi, sehingga nilai asli ikut berubah. Di dalam main(), program menampilkan profil awal, memberikan bonus nilai, lalu menampilkan profil kembali setelah nilai diperbarui. Program ini menunjukkan cara penggunaan fungsi dan parameter referensi untuk memproses serta memperbarui data secara langsung.
+ Program ini digunakan untuk menampilkan profil siswa, menghitung rata-rata nilai, dan menambahkan bonus nilai menggunakan fungsi. Fungsi hitungRataRata() menghitung rata-rata dari nilai tugas dan UTS, sedangkan cetakProfil() menampilkan nama serta nilai siswa. Fungsi beriNilaiBonus() menambahkan nilai sebesar 5 poin dengan menggunakan parameter referensi, sehingga nilai asli ikut berubah. Di dalam main(), program menampilkan profil awal, memberikan bonus nilai, lalu menampilkan profil kembali setelah nilai diperbarui. Program ini menunjukkan cara penggunaan fungsi dan parameter referensi untuk memproses serta memperbarui data secara langsung.
 
 - **Output  :**
 ![alt text](Screenshot/Output-Guided3.png)
@@ -57,8 +55,7 @@ Program ini digunakan untuk menampilkan profil siswa, menghitung rata-rata nilai
 ![alt text](Screenshot/Unguided1.png)
 
 - **Penjelasan  :**
-
-Program ini dibuat untuk membantu toko buku menghitung dan mengelola stok. Data stok disimpan dalam array stokBuku. Program menampilkan stok awal, menghitung total stok dengan fungsi hitungTotal(), lalu mencari stok paling sedikit lewat fungsi cariStokTerkecil(). Buku dengan stok terendah mendapat bonus 10 buku. Setelah itu, stok baru ditampilkan lagi. Program ini menunjukkan penggunaan array, pointer, fungsi, dan prosedur untuk mengolah data dengan cara yang sederhana dan terstruktur.
+ Program ini dibuat untuk membantu toko buku menghitung dan mengelola stok. Data stok disimpan dalam array stokBuku. Program menampilkan stok awal, menghitung total stok dengan fungsi hitungTotal(), lalu mencari stok paling sedikit lewat fungsi cariStokTerkecil(). Buku dengan stok terendah mendapat bonus 10 buku. Setelah itu, stok baru ditampilkan lagi. Program ini menunjukkan penggunaan array, pointer, fungsi, dan prosedur untuk mengolah data dengan cara yang sederhana dan terstruktur.
 
 - **Output  :**
 ![alt text](Screenshot/Output-Unguided1.png)
