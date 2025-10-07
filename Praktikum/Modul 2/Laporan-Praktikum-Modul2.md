@@ -11,13 +11,16 @@ Saya memiliki dorongan kuat untuk mempelajari struktur data karena menyadari bah
 ## 3. Dasar Teori
 Struktur data adalah cara untuk menyimpan dan mengorganisir data dalam komputer agar dapat digunakan secara efisien. Berikut adalah teori dasar mengenai Array, Pointer, dan Fungsi:
 - **Konsep Array dan Pengolahan Data**
+
 Array adalah struktur data yang digunakan untuk menyimpan banyak nilai dengan tipe data yang sama dalam satu variabel. Setiap elemen dalam array memiliki posisi atau indeks tertentu yang bisa diakses secara langsung, misalnya dengan arr[i] pada C++. Data dalam array tersimpan secara berurutan di memori, sehingga proses pengambilan dan pengolahan datanya menjadi lebih cepat. Array sangat berguna ketika kita ingin mengelola banyak data sekaligus, seperti daftar nilai siswa, stok barang, atau data penjualan. Dengan adanya array, kita tidak perlu membuat banyak variabel satu per satu.
 Menurut Kusuma & Rahmadani (2023), struktur array merupakan dasar penting dalam pengelolaan data karena memungkinkan penyimpanan dan pengolahan informasi secara efisien serta teratur.
 
 - **Pointer dan Manipulasi Memori**
+
 Pointer adalah variabel yang berisi alamat memori dari variabel lain. Dengan pointer, kita dapat mengakses dan mengubah nilai variabel secara langsung melalui alamat memorinya, bukan dengan menyalin datanya. Cara ini membuat program lebih efisien dalam penggunaan memori dan lebih fleksibel saat memproses data. Santoso & Wirawan (2022) menyebutkan bahwa pemahaman pointer sangat penting untuk memahami bagaimana komputer mengatur memori serta bagaimana efisiensi manipulasi data dapat dicapai dalam bahasa pemrograman seperti C dan C++.
 
 - **Fungsi dan Parameter Referensi**
+
 Fungsi digunakan untuk membagi program menjadi beberapa bagian kecil yang memiliki tugas tertentu. Dengan begitu, kode menjadi lebih rapi dan mudah digunakan kembali. Dalam C++, fungsi dapat menerima parameter dengan dua cara: by value (nilai disalin) atau by reference (mengacu ke variabel asli). Jika menggunakan pass by reference, maka perubahan yang dilakukan di dalam fungsi akan langsung memengaruhi variabel aslinya. Hal ini membuat program lebih efisien dan mendukung prinsip modularitas, yaitu memecah program menjadi bagian-bagian yang saling bekerja sama.
 Putri & Nugroho (2021) menjelaskan bahwa penggunaan parameter referensi dalam fungsi membantu meningkatkan efisiensi pengolahan data dan memperkuat konsep modular dalam pemrograman.
 
@@ -26,6 +29,7 @@ Putri & Nugroho (2021) menjelaskan bahwa penggunaan parameter referensi dalam fu
 ### 4.1 Guided 1
 ![alt text](Screenshot/Guided1.png)
 
+- **Penjelasan  :**
 Program ini digunakan untuk menampilkan jumlah buku yang dibaca setiap hari selama seminggu dan menghitung totalnya. Data jumlah buku disimpan dalam array bukuPerHari, sedangkan variabel totalBuku digunakan untuk menampung total keseluruhan. Melalui perulangan for, program menampilkan jumlah buku yang dibaca setiap hari dan menambahkan nilainya ke total. Secara keseluruhan, program ini memanfaatkan array untuk menyimpan data dan loop for untuk menampilkan serta menghitung total buku secara otomatis.
 
 Output  :
@@ -34,6 +38,7 @@ Output  :
 ### 4.2 Guided 2
 ![alt text](Screenshot/Guided2.png)
 
+- **Penjelasan  :**
 Program ini digunakan untuk menampilkan harga awal produk, alamat memorinya, dan menghitung harga setelah diberi diskon menggunakan pointer. Variabel hargaProduk menyimpan nilai awal 50000, sedangkan pointer ptrHarga digunakan untuk menyimpan alamat memori dari variabel tersebut. Program menampilkan harga awal dan alamat memorinya, lalu memberikan diskon 10% melalui pointer dengan perintah *ptrHarga = *ptrHarga * 0.9;. Karena pointer terhubung langsung ke variabel aslinya, perubahan nilai otomatis terjadi pada hargaProduk. Hasil akhirnya, program menampilkan harga produk setelah diskon dengan nilai yang sudah berkurang.
 
 Output  :
@@ -42,6 +47,7 @@ Output  :
 ### 4.3 Guided 3
 ![alt text](Screenshot/Guided3.png)
 
+- **Penjelasan  :**
 Program ini digunakan untuk menampilkan profil siswa, menghitung rata-rata nilai, dan menambahkan bonus nilai menggunakan fungsi. Fungsi hitungRataRata() menghitung rata-rata dari nilai tugas dan UTS, sedangkan cetakProfil() menampilkan nama serta nilai siswa. Fungsi beriNilaiBonus() menambahkan nilai sebesar 5 poin dengan menggunakan parameter referensi, sehingga nilai asli ikut berubah. Di dalam main(), program menampilkan profil awal, memberikan bonus nilai, lalu menampilkan profil kembali setelah nilai diperbarui. Program ini menunjukkan cara penggunaan fungsi dan parameter referensi untuk memproses serta memperbarui data secara langsung.
 
 Output  :
@@ -51,6 +57,7 @@ Output  :
 ### 5.1 Unguided 1
 ![alt text](Screenshot/Unguided1.png)
 
+- **Penjelasan  :**
 Program ini dibuat untuk membantu toko buku menghitung dan mengelola stok. Data stok disimpan dalam array stokBuku. Program menampilkan stok awal, menghitung total stok dengan fungsi hitungTotal(), lalu mencari stok paling sedikit lewat fungsi cariStokTerkecil(). Buku dengan stok terendah mendapat bonus 10 buku. Setelah itu, stok baru ditampilkan lagi. Program ini menunjukkan penggunaan array, pointer, fungsi, dan prosedur untuk mengolah data dengan cara yang sederhana dan terstruktur.
 
 Output  :
