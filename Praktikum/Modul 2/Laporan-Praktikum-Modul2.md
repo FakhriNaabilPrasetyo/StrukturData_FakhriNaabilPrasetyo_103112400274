@@ -10,14 +10,14 @@ Saya memiliki dorongan kuat untuk mempelajari struktur data karena menyadari bah
 
 ## 3. Dasar Teori
 Struktur data adalah cara untuk menyimpan dan mengorganisir data dalam komputer agar dapat digunakan secara efisien. Berikut adalah teori dasar mengenai Array, Pointer, dan Fungsi:
-- **Konsep Array dan Pengolahan Data**
+- **Konsep Array dan Pengolahan Data  :** 
 Array adalah struktur data yang digunakan untuk menyimpan banyak nilai dengan tipe data yang sama dalam satu variabel. Setiap elemen dalam array memiliki posisi atau indeks tertentu yang bisa diakses secara langsung, misalnya dengan arr[i] pada C++. Data dalam array tersimpan secara berurutan di memori, sehingga proses pengambilan dan pengolahan datanya menjadi lebih cepat. Array sangat berguna ketika kita ingin mengelola banyak data sekaligus, seperti daftar nilai siswa, stok barang, atau data penjualan. Dengan adanya array, kita tidak perlu membuat banyak variabel satu per satu.
 Menurut Kusuma & Rahmadani (2023), struktur array merupakan dasar penting dalam pengelolaan data karena memungkinkan penyimpanan dan pengolahan informasi secara efisien serta teratur.
 
-- **Pointer dan Manipulasi Memori**
+- **Pointer dan Manipulasi Memori  :**
 Pointer adalah variabel yang berisi alamat memori dari variabel lain. Dengan pointer, kita dapat mengakses dan mengubah nilai variabel secara langsung melalui alamat memorinya, bukan dengan menyalin datanya. Cara ini membuat program lebih efisien dalam penggunaan memori dan lebih fleksibel saat memproses data. Santoso & Wirawan (2022) menyebutkan bahwa pemahaman pointer sangat penting untuk memahami bagaimana komputer mengatur memori serta bagaimana efisiensi manipulasi data dapat dicapai dalam bahasa pemrograman seperti C dan C++.
 
-- **Fungsi dan Parameter Referensi**
+- **Fungsi dan Parameter Referensi  :**
 Fungsi digunakan untuk membagi program menjadi beberapa bagian kecil yang memiliki tugas tertentu. Dengan begitu, kode menjadi lebih rapi dan mudah digunakan kembali. Dalam C++, fungsi dapat menerima parameter dengan dua cara: by value (nilai disalin) atau by reference (mengacu ke variabel asli). Jika menggunakan pass by reference, maka perubahan yang dilakukan di dalam fungsi akan langsung memengaruhi variabel aslinya. Hal ini membuat program lebih efisien dan mendukung prinsip modularitas, yaitu memecah program menjadi bagian-bagian yang saling bekerja sama.
 Putri & Nugroho (2021) menjelaskan bahwa penggunaan parameter referensi dalam fungsi membantu meningkatkan efisiensi pengolahan data dan memperkuat konsep modular dalam pemrograman.
 
