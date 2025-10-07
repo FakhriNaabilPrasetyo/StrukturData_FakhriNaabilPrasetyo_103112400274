@@ -27,7 +27,6 @@ Putri & Nugroho (2021) menjelaskan bahwa penggunaan parameter referensi dalam fu
 ![alt text](Screenshot/Guided1.png)
 
 - **Penjelasan  :**
-
 Program ini digunakan untuk menampilkan jumlah buku yang dibaca setiap hari selama seminggu dan menghitung totalnya. Data jumlah buku disimpan dalam array bukuPerHari, sedangkan variabel totalBuku digunakan untuk menampung total keseluruhan. Melalui perulangan for, program menampilkan jumlah buku yang dibaca setiap hari dan menambahkan nilainya ke total. Secara keseluruhan, program ini memanfaatkan array untuk menyimpan data dan loop for untuk menampilkan serta menghitung total buku secara otomatis.
 
 - **Output  :**
