@@ -57,6 +57,7 @@ Kemudian program memanggil fungsi balikStack(S) untuk membalik urutan elemen dal
 Secara sederhana, kode ini mendemonstrasikan bagaimana stack dibuat, diisi, dimodifikasi, lalu dibalik, dan hasilnya ditampilkan ke layar.
 
 - **Output Compile main.cpp :**
+
 ![alt text](Screenshot/OutputCompile-(main.cpp).png)
 
 
@@ -79,6 +80,7 @@ Setelah rangkaian operasi tersebut, program memanggil printInfo(S) untuk menampi
 Kemudian program menuliskan "balik stack" sebagai penanda bahwa proses pembalikan dimulai. Fungsi balikStack(S) digunakan untuk membalik urutan isi stack. Setelah stack dibalik, printInfo(S) dipanggil lagi untuk menampilkan hasil akhirnya. Secara keseluruhan, kode ini menunjukkan cara membuat stack, mengisi datanya, memodifikasi isi melalui operasi push dan pop, lalu membalik isi stack dan menampilkannya ke layar.
 
 - **Output  :**
+
 ![alt text](Screenshot/Output-Unguided1.png)
 
 ### 5.2 Unguided 2
@@ -88,6 +90,7 @@ Kemudian program menuliskan "balik stack" sebagai penanda bahwa proses pembalika
 Program ini contoh penggunaan stack dengan fitur pushAscending, yaitu menambahkan elemen ke dalam stack secara berurutan dari nilai terkecil ke terbesar. Pertama, program menampilkan teks “Hello World!” lalu membuat stack kosong dengan CreateStack(S). Setelah itu, beberapa nilai seperti 3, 4, 8, 2, 3, dan 9 dimasukkan menggunakan pushAscending, sehingga elemen-elemen dalam stack otomatis tersusun naik berdasarkan nilainya. Fungsi printInfo(S) kemudian menampilkan isi stack. Selanjutnya, program menampilkan teks “balik stack” dan memanggil balikStack(S) untuk membalik urutan elemen di dalam stack, lalu hasil akhirnya kembali ditampilkan dengan printInfo(S). Program ini menunjukkan cara menambah elemen secara terurut naik serta membalik urutan stack dengan mudah
 
 - **Output  :**
+
 ![alt text](Screenshot/Output-Unguided2.png)
 
 ### 5.3 Unguided 3
@@ -97,6 +100,7 @@ Program ini contoh penggunaan stack dengan fitur pushAscending, yaitu menambahka
 Unguided3.cpp ini adalah program driver yang fokus utamanya adalah untuk menguji fungsionalitas getInputStream(S). Sama seperti yang lain, dia meng-include stack.h dan iostream. Di dalam main, setelah membuat dan menginisialisasi Stack S, program ini langsung memanggil getInputStream(S). Ini artinya, program akan berhenti sejenak dan meminta pengguna untuk mengetikkan serangkaian angka, yang kemudian akan diproses dan dimasukkan ke dalam stack oleh fungsi tersebut. Setelah stack terisi sesuai input pengguna, program memanggil printInfo(S) untuk menampilkan hasilnya. Sebagai langkah pengujian tambahan, program ini kemudian memanggil balikStack(S) untuk membalik isi stack yang baru saja diinput oleh pengguna, dan mencetaknya lagi dengan printInfo(S) untuk menunjukkan kondisi stack setelah dibalik.
 
 - **Output  :**
+
 ![alt text](Screenshot/Output-Unguided3.png)
 
 ## 6. Kesimpulan
