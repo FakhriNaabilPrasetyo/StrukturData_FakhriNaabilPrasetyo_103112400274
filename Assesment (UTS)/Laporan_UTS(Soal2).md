@@ -3,7 +3,9 @@
 Identitas Pengumpul
 
 Nama : Fakhri Naabil Prasetyo
+
 NIM : 103112400274
+
 Kelas : 12-IF-05
 
 1. ## Kode Program
@@ -11,8 +13,11 @@ Kelas : 12-IF-05
 Berikut adalah kode program untuk mengimplementasikan Doubly Linked List, di mana list bisa ditambah dari belakang, dihapus dari belakang, dilihat dari depan, dan dibalik urutannya (reverse) yang memiliki fitur:
 
 Insert nilai di akhir (end)
+
 Delete nilai terakhir
+
 Menampilkan list dari depan ke belakang
+
 Reverse list tanpa membuat node baru
 
 
@@ -198,13 +203,21 @@ Berikut adalah hasil eksekusi program (output) ketika dijalankan.
 4. ## Penjelasan Lanjutan (Analisis Output)
 
 Berikut penjelasan kenapa output tersebut benar :
+
 Saat user memasukkan 5, 10, 15, 20, data dimasukkan berurutan ke belakang.
+
 Saat ditampilkan, listnya adalah:
+
 5 10 15 20
+
 Setelah deleteLast, angka 20 dihapus.
+
 Saat dilakukan reverse, urutannya otomatis terbalik menjadi:
+
 15 10 5
+
 Saat ditampilkan kembali, nilai sudah tersusun seperti hasil reverse.
+
 Program bekerja sesuai operasi yang ada pada Doubly Linked List.
 
 
@@ -212,6 +225,9 @@ Program bekerja sesuai operasi yang ada pada Doubly Linked List.
 5. ## Kesimpulan
 
 Dari pembuatan dan pengujian program Doubly Linked List ini, bisa disimpulkan bahwa:
+
 Doubly Linked List fleksibel karena bisa bergerak dua arah dan memudahkan operasi pada ujung list.
+
 Operasi insert, delete, view, dan reverse dapat dibuat dengan memanfaatkan pointer prev dan next.
+
 Program telah berjalan sesuai dengan yang diminta pada soal, dan seluruh fungsinya bekerja dengan benar.

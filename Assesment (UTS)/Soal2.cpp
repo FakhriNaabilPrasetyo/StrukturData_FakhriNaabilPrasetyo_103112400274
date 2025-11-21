@@ -1,3 +1,7 @@
+// Author : Fakhri Naabil Prasetyo
+// NIM : 103112400274
+// Deskripi : Program ini dibuat untuk mengimplementasikan struktur data Doubly Linked List, yaitu struktur list yang setiap nodenya memiliki dua pointer: satu menunjuk ke node berikutnya (next), dan satu lagi menunjuk ke node sebelumnya (prev).
+
 #include <iostream>
 using namespace std;
 
