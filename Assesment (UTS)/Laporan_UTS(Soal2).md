@@ -1,4 +1,6 @@
-# Assesment (UTS) Soal 2 - Struktur Data
+# UJIAN TENGAH SEMESTER PRAKTIKUM STRUKTUR DATA CLO 3
+
+# Soal no. 2
 
 Identitas Pengumpul
 
