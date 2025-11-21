@@ -3,9 +3,7 @@
 Identitas Pengumpul
 
 Nama : Fakhri Naabil Prasetyo
-
 NIM : 103112400274
-
 Kelas : 12-IF-05
 
 1. ## Kode Program
@@ -13,15 +11,16 @@ Kelas : 12-IF-05
 Berikut adalah kode program untuk mengimplementasikan Doubly Linked List, di mana list bisa ditambah dari belakang, dihapus dari belakang, dilihat dari depan, dan dibalik urutannya (reverse) yang memiliki fitur:
 
 Insert nilai di akhir (end)
-
 Delete nilai terakhir
-
 Menampilkan list dari depan ke belakang
-
 Reverse list tanpa membuat node baru
 
 
 ```
+// Author : Fakhri Naabil Prasetyo
+// NIM : 103112400274
+// Deskripi : Program ini dibuat untuk mengimplementasikan struktur data Doubly Linked List, yaitu struktur list yang setiap nodenya memiliki dua pointer: satu menunjuk ke node berikutnya (next), dan satu lagi menunjuk ke node sebelumnya (prev).
+
 #include <iostream>
 using namespace std;
 
@@ -148,39 +147,26 @@ Berikut adalah penjelasan alur logika dari kode program di atas:
 - ### Struktur Node  
 
 Tiap Node memiliki :
-
 1. data = Nilai integer
-
 2. next = Penunjuk ke node setelahnya
-
 3. prev = Penunjuk ke node sebelumnya
-
 karena ada 2 arah pointer, list dapat diakses maju mundur.
 
 - ### insertEnd()
 
 Fungsi ini menambah data baru di belakang list.
-
 Cara kerjanya:
-
 Membuat node baru
-
 Kalau list masih kosong, node langsung jadi head dan tail
-
 Kalau sudah ada isi, node baru ditempelkan ke tail
-
 Tail dipindahkan ke node yang baru.
 
 - ### deleteLast()
 
 Fungsinya menghapus node terakhir.
-
 Ada beberapa kondisi:
-
 Kalau list kosong → tidak melakukan apa-apa
-
 Kalau hanya ada 1 node → head dan tail jadi NULL
-
 Kalau node lebih dari 1 → tail digeser ke node sebelumnya, node lama dihapus.
 
 - ### viewDepan()
@@ -191,11 +177,8 @@ Mulai dari head → maju terus mengikuti next sampai NULL.
 - ### reverseList()
 
 Bagian ini membalik list tanpa membuat node baru.
-
 Untuk tiap node:
-
 pointer prev ditukar dengan next
-
 setelah semuanya tertukar, head dipindah ke posisi yang seharusnya.
 
 - ### reverseAndView()
@@ -215,29 +198,20 @@ Berikut adalah hasil eksekusi program (output) ketika dijalankan.
 4. ## Penjelasan Lanjutan (Analisis Output)
 
 Berikut penjelasan kenapa output tersebut benar :
-
 Saat user memasukkan 5, 10, 15, 20, data dimasukkan berurutan ke belakang.
-
 Saat ditampilkan, listnya adalah:
 5 10 15 20
-
 Setelah deleteLast, angka 20 dihapus.
-
 Saat dilakukan reverse, urutannya otomatis terbalik menjadi:
 15 10 5
-
 Saat ditampilkan kembali, nilai sudah tersusun seperti hasil reverse.
-
 Program bekerja sesuai operasi yang ada pada Doubly Linked List.
 
 
 
-5. Kesimpulan
+5. ## Kesimpulan
 
 Dari pembuatan dan pengujian program Doubly Linked List ini, bisa disimpulkan bahwa:
-
 Doubly Linked List fleksibel karena bisa bergerak dua arah dan memudahkan operasi pada ujung list.
-
 Operasi insert, delete, view, dan reverse dapat dibuat dengan memanfaatkan pointer prev dan next.
-
 Program telah berjalan sesuai dengan yang diminta pada soal, dan seluruh fungsinya bekerja dengan benar.
