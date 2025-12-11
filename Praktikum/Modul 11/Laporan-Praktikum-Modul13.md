@@ -1,4 +1,4 @@
-# Laporan Praktikum Struktur Data Modul 11
+# Laporan Praktikum Struktur Data Modul 13
 
 ## 1. Nama, NIM, Kelas
 - **Nama** : Fakhri Naabil Prasetyo
